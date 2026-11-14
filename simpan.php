@@ -17,7 +17,7 @@ if (strlen($nim) < 8) {
 }
 
 // Query INSERT
-$sql = "INSERT INTO mahasiswa
+$sql = "INSERT INTO `254242005`
         (nim, nama, jurusan, alamat)
         VALUES (?, ?, ?, ?)";
 

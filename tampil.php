@@ -5,7 +5,7 @@ include "koneksi.php";
 $jurusan = "Teknik Informatika";
 
 $stmt = $conn->prepare(
-    "SELECT * FROM mahasiswa WHERE jurusan = ?"
+    "SELECT * FROM `254242005` WHERE jurusan = ?"
 );
 
 $stmt->bind_param("s", $jurusan);
